@@ -47,20 +47,20 @@ handler500 = views.page_error
 
 ## settings配置：
 ``````
-1. 在INSTALLED_APPS中添加‘login’，'captcha'
-2. 默认使用Sqlite数据库
-3. LANGUAGE_CODE = 'zh-hans'
-4. TIME_ZONE = 'Asia/Shanghai'
-5. USE_TZ = False
+
+1. 默认使用Sqlite数据库
+2. LANGUAGE_CODE = 'zh-hans'  #语言
+3. TIME_ZONE = 'Asia/Shanghai'   #时区
+4. USE_TZ = False
 
 # 邮件服务设置
-6. EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-7. EMAIL_HOST = 'smtp.sina.com'
-8. EMAIL_PORT = 25
-9. EMAIL_HOST_USER = 'xxxx@sina.com'
-10. EMAIL_HOST_PASSWORD = 'xxxxx'
+5. EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+6. EMAIL_HOST = 'smtp.sina.com'
+7. EMAIL_PORT = 25
+8. EMAIL_HOST_USER = 'xxxx@sina.com' #填上自己的账号
+9. EMAIL_HOST_PASSWORD = 'xxxxx'        #自己的第三方登录密码
 
 # 注册有效期天数
-11. CONFIRM_DAYS = 7
+10. CONFIRM_DAYS = 7
 
 ``````

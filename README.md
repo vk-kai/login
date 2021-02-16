@@ -13,7 +13,7 @@
 
 运行python manage.py migrate 命令，创建数据库和数据表
 
-运行python manage.py runserver  -- --insecure
+运行python manage.py runserver  --insecure
 启动服务器
 
 

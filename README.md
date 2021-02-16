@@ -1,19 +1,19 @@
 ## 简单的使用方法：
 
 
-创建虚拟环境
+①. 创建虚拟环境
 
-使用pip安装第三方依赖
+②.使用pip安装第三方依赖
 
-修改settings.example.py文件为settings.py
+③.修改settings.example.py文件为settings.py
 
 修改其中的发送邮件设置为自己的账号和第三方登录密钥
 
-注意切换到当前目录
+    !注意切换到当前目录!
 
-运行python manage.py migrate 命令，创建数据库和数据表
+④ 运行python manage.py migrate 命令，创建数据库和数据表
 
-运行python manage.py runserver  --insecure 启动服务器
+④ 运行python manage.py runserver  --insecure 启动服务器
 
 
 ![示例图片](https://ftp.bmp.ovh/imgs/2021/02/6784472bec14870f.png ) 

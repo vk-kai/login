@@ -17,10 +17,8 @@
 
 
 ![示例图片](https://ftp.bmp.ovh/imgs/2021/02/6784472bec14870f.png ) 
-
-
-]
-##路由设置：
+<>
+#路由设置：
 
 ```
 from django.contrib import admin

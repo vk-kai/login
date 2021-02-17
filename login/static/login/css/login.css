@@ -9,7 +9,7 @@ body {
   margin: 0 auto;
 }
 .form-login{
-  margin-top:80px;
+  margin-top:10px;
   font-weight: 400;
 }
 .form-login .form-control {
@@ -37,5 +37,5 @@ form a{
   display: inline-block;
   margin-top:25px;
   font-size: 12px;
-  line-height: 10px;
+  line-height: 5px;
 }
